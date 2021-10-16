@@ -1,9 +1,5 @@
 # datathon_2021
 Project for Datathon 2021
-
-## Purpose: 
-To provide recommendations on additional major/certificates to take based on current major and classes taken
-
 ## Workload:
 1. scrape the internet for datasets
    i) Major Guide (start with Data Science)
@@ -12,3 +8,9 @@ To provide recommendations on additional major/certificates to take based on cur
    iv) Rate My Professor
 3. integrate the datasets in a metric for judgement
 4. display of the output data
+
+## Importance:
+1. Higher education is important, but it could be very overwhelming trying to get to know a major
+2. Many people are considering double majoring as the world and subjects gets more integrated (healthcare and data science)
+3. If there is a more integrated system where people can access the feasibility of completing a major, it would make the selection of major and higher education in general much less overwhelming.
+4. So we want to create a platform where people could assess their availability by the classes needed, the prerequisites to take those credits (so it is a realisitic representation of what is needed), the grade distribution for these classes, and the rate my professor rate for the usual professors of those classes
