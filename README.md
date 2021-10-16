@@ -14,4 +14,4 @@ Project for Datathon 2021
 2. Many people are considering double majoring as the world and subjects gets more integrated (healthcare and data science) <-- Also useful for students who are considering changing major to see overlapse
 3. If there is a more integrated system where people can access the feasibility of completing a major, it would make the selection of major and higher education in general much less overwhelming.
 4. So we want to create a platform where people could assess their availability by the classes needed, the overlapse of those classes, the prerequisites to take those credits (so it is a realisitic representation of what is needed), the grade distribution for these classes, and the rate my professor rate for the usual professors of those classes
-5. This is really helpful for Undergrads who are considering double majoring, students who are considering major changes
+5. This is really helpful for Undergrads who are considering double majoring, students who are considering major changes after assessing the amount of overlap between their majors and other majors
