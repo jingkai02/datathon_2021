@@ -36,7 +36,6 @@ def render_mpl_table(data, col_width=3.0, row_height=0.625, font_size=14,
 
 # Helper Function for PySimpleGui Canvas
 def draw_figure(canvas, figure):
-    matplotlib.use("TkAgg")
     figure_canvas_agg = FigureCanvasTkAgg(figure, canvas)
     figure_canvas_agg.draw()
     figure_canvas_agg.get_tk_widget().pack(side="top", fill="both", expand=1)
@@ -44,14 +43,17 @@ def draw_figure(canvas, figure):
 
 # Function that makes the display window
 def Display(df):
+    matplotlib.use("TkAgg")
+    
     # Making the dataframe into a figure
     fig,ax = render_mpl_table(df, header_columns=0, col_width=5.0)
     fig.savefig("test.png")
     
     # Define the window layout
     layout = [
-        [sg.Text("What major are you interested in?")],
-        [sg.Input(key='-INPUT-')],
+        [sg.Text("What majors are you interested in?")],
+        [sg.Text('Major1', size =(15, 1)), sg.InputText()],
+        [sg.Text('Major2', size =(15, 1)), sg.InputText()],
         [sg.Text(size=(40,1), key='-OUTPUT-')],
         [sg.Canvas(key="-CANVAS-")],
         [sg.Button('Ok'), sg.Button('Quit')]
@@ -80,7 +82,7 @@ def Display(df):
             break
             
         # Output a message to the window
-        window['-OUTPUT-'].update(values['-INPUT-'] + " has the following classes.")
+        window['-OUTPUT-'].update(values[0] +" "+ values[1] + " has the following classes.")
         
     # Finish up by removing from the screen
     window.close()
