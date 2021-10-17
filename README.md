@@ -11,7 +11,7 @@ The Major Explorer project aims to support college students from University of W
 4. Used Monte Carlo Simulation to find overlapping courses and remaining courses to take.
 5. Displayed the output data.
  
-## Why We Cared:
+## Why We Care:
 1. As the world and subjects gets more integrated, over 1 in 5 students have double majors in their first bachelor's degree. At the same time, around 1 in 3 students enter college as "undecided", and this rate is even higher for underrepresented students, such as first-generation students. Also, around 75% of students change their majors in college.
 2. Higher education is important, but with a variety of options provided, it could be overwhelming for college students to distinguish between majors and classes.
 3. If there is a more integrated system where people can access the feasibility of completing a major, it would make the selection of major and higher education in general much less overwhelming.
