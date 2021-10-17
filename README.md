@@ -4,7 +4,7 @@
 The Major Explorer project aims to support college students from University of Wisconsin-Madison with major choices. Having major requirement data scraped from Guide (https://guide.wisc.edu/), where information about all academic programs can be found, the Major Explore project compares overlaping classes between majors and generates most recommended classes to aid students in exploring classes, considering double majoring and chaning majors. This project starts from analyzing the Data Science major and some relevant majors, such as the Mathematics in Data and Risk Analysis and Actuararial Science. A mix of data science matrials are applied, such as data visualization and Monte Carlo Simulation. Based on this project, more combinations between majors may benefit more students in the future.
 
 ## What We Did:
-1. Scraped datasets
+1. Scraped datasets /n
    i) Major Guide
       a) Started with requirement for Data Science Major.
       b) Based on relative areas from the Guide, Mathematics in Data and Risk Analysis and Actuararial Science majors are included.
