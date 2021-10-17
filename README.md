@@ -5,9 +5,9 @@ The Major Explorer project aims to support college students from University of W
 
 ## What We Did:
 1. Scraped datasets <br/>
-   i) Major Guide
-      a) Started with requirement for Data Science Major.
-      b) Based on relative areas from the Guide, Mathematics in Data and Risk Analysis and Actuararial Science majors are included.
+   i) Major Guide <br/>
+      a) Started with requirement for Data Science Major. <br/>
+      b) Based on relative areas from the Guide, Mathematics in Data and Risk Analysis and Actuararial Science majors are included. <br/>
 3. Integrated the datasets in a metric for judgement.
 4. Used Monte Carlo Simulation to find overlapping courses and remaining courses to take.
 5. Displayed the output data.
