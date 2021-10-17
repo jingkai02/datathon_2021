@@ -39,3 +39,6 @@ This could help in deciding whether or not to pursue a major as well as aid in d
 6. This project assesses chaging majors in a realistic way, taking time considerations (in terms of credits) for graduation into account.
 7. Therefore, this project has real-world impact for a considerable proportion of undergraduate students. These include students who are considering double majoring, students who are considering major changes, and students who are just simply exploring possibilities. After assessing the amount of overlap between their majors and other majors, they will be able to make more informed plans for their future. We wanted to create a platform where people could assess their availability by the classes needed, the overlapse of those classes, the prerequisites to take those credits (so it is a realisitic representation of what is needed). In the future, more can be added to this project, such as the grade distribution for these classes, and the rate my professor rate for the usual professors of those classes, to benefit students.
 8. Higher education is stressful, but there will always be people there to help, and we want to be a part of that.
+
+## OUr Presentation Link (With Demo Snapshots):
+https://docs.google.com/presentation/d/1FEguFwCVsmTsgoHRsaTtpaBZUgJi55iWFEtXFIJ9MZQ/edit?usp=sharing
