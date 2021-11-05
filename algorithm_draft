@@ -1,0 +1,40 @@
+This is a rough outline of our algorithm
+
+Objective: Determine best classes to take to get both majors, incorporating previous class history (here, best = least credits)
+
+Inputs: 
+
+(A) Master Database of all classes, with the following attributes, sorted by Class Number (like Course Search and Enroll)
+- Class Number
+- Class Name
+- Pre-Requisites required for class (if any)
+- Categor(ies) that class fulfills
+
+(B) Categories for both majors, as well as what classes fulfills those categories
+
+(C) Past Classes
+
+Data Structure: Collection of Trees
+Each class represents a node, with attributes indicating which category it falls in. Nodes can also form directed edges with the presence of pre-requisites
+
+Algorithm draft:
+We will employ a BFS (Breadth-first Search) to fill up all categories at the same time, using a priority Queue. We do not use DFS (Depth-First Search) because we want to optimize 
+across all categories
+
+Assumption: Classes cannot cross-fulfill within 1 major, but may cross-fulfill across different majors
+
+Part 1: Incorporating the past classes
+We first assign classes to categories in Major 1, then assign classes to Major 2.
+To assign classes in a major, we calculate how many categories each class is in TBD
+# TODO: Deterime algo for assigning classes in 1 major
+
+Part 2: Choosing future classes
+To choose future classes, we sort categories by amount of remaining classes needed to fulfill credit. 
+We then aim to choose 1 class to assign to that category by:
+- Search through all eligible classes, rank them by number of other AVAILABLE categories they fulfill
+- If a class has a prereq:
+    Case 1: Satisfied - Ignore
+    Case 2: Not Satisfied - Check Pre-reqs, are any of them in other AVAILABLE categories? If yes, go solve that category first, then come back to this
+- After looping through all classes, assign 1 class to the category and move to the next category in the priority queue
+
+    
