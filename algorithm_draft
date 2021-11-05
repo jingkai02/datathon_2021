@@ -30,11 +30,14 @@ To assign classes in a major, we calculate how many categories each class is in 
 
 Part 2: Choosing future classes
 To choose future classes, we sort categories by amount of remaining classes needed to fulfill credit. 
-We then aim to choose 1 class to assign to that category by:
+We then go through the priority queue and try to assign classes to them one at a time:
+
+We aim to choose 1 class to assign to that category by:
 - Search through all eligible classes, rank them by number of other AVAILABLE categories they fulfill
 - If a class has a prereq:
     Case 1: Satisfied - Ignore
     Case 2: Not Satisfied - Check Pre-reqs, are any of them in other AVAILABLE categories? If yes, go solve that category first, then come back to this
-- After looping through all classes, assign 1 class to the category and move to the next category in the priority queue
+- After looping through all classes, assign 1 class to the category, decrement the required class by one and move to the next category in the priority queue
+- If the no of additional classes required is now 0, pop the category off the queue.
 
     
