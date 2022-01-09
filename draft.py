@@ -11,9 +11,10 @@ text = BeautifulSoup(page.text, "html.parser")
 with open("output1.html", "w",encoding='utf-8') as file:
     file.write(str(text))
 
+file.close()
 pattern = re.compile(r'/undergraduate/letters-science/[^/]+/[^/]+/index')
 Result = pattern.findall(str(text))
 
-print(len(Result))
-for x in Result:
-    print(x)
+with open("major-names.txt", "w") as file:
+    for result in Result:
+        file.write("https://guide.wisc.edu"+result+".html#requirementstext\n")
