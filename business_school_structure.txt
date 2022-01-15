@@ -1,0 +1,17 @@
+This file contains details on the algorithm to scrape Business School classes, for all 11 majors in the business school
+
+1) All majors have BBA Requirements that need to be scraped amoung all majors
+
+2) All 11 majors have specific requirements that need to be scraped too
+
+BBA requirements are quire complicated, so we will start with scraping the specific major requirements by identifying common structures, then moving on to the BBA requirements
+
+Also, note that the BBA requirements has different rules depending on how many majors you're taking
+
+Part 1: Specific Major requirements
+
+Each major has different requirements, but there are 3 main components to each major:
+
+a) Required classes to complete (represent as category with only 1 course)
+b) Choose some classes from a list of major classes, limited length
+c) Electives - choose from a LARGE variety of possible options
