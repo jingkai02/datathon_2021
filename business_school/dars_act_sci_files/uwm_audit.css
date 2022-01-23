@@ -1,0 +1,555 @@
+/* ----------------------------------------------------------------
+   NOTE:  css for UW-Madison created from copy of audit.css
+   supplied by Red Lantern with modification requested by 
+   Office of the Registrar with goal to adhere to best 
+   practices outlined by W3C for low-sighted and color-blind users   
+ ----------------------------------------------------------------- */
+ 
+ /* ------------------------------------------------------------------------------------------
+ 	
+ 	Ver1.0	5/31/12	FLZ		labeled hex colors for ease of use
+ 							added BOLD and 15px to .auditLineType_11_noRequirementTitle
+ 							changed color to #000099 for .auditLineType_11_noRequirementTitle
+			6/18/12 FLZ		changed font size for links to 16
+							changed font to Lucida Console for auditLineType_22 ... 	
+			11/14/13 FLZ	auditLineType_23_noSubrequirementCourses changed from 527AAE to #000099	
+			1/8/14   FLZ	added increase/decrease font so low-sighted users can read display more easily
+			2/11/14  FLZ	backed out change on 1/8/14, most browsers provide this functionality 					 
+ 	
+    ------------------------------------------------------------------------------------------ */
+
+
+/* -------------------------------------------------------*/
+/*           START: Audit line type definitions           */
+/* -------------------------------------------------------*/
+
+/* used for transfer articulation? */
+.defaultLine
+{
+
+	color: #00FF00;  /* green */
+	font-size: 12px;
+}
+
+/* new */
+
+/*
+ *
+ * Tip:
+ *
+ * Use the "margin-left" style to indent text.
+ *
+ *  Example:
+ *    .someStyle
+ *    {
+ *      margin-left: 20px;
+ *    }
+ *
+ */
+pre {
+	margin-bottom: 0;
+}
+.auditLineType_00_pageHeader
+{
+	font-weight: bold;
+	font-size: 12px;
+}
+.auditLineType_01_horizontalSeparator
+{
+}
+.auditLineType_02_columnHeader
+{
+  font-size: 12px;
+}
+.auditLineType_03_includeTopText
+{
+  margin-left: 20px;
+  font-style: italic;
+  font-size: 12px;
+}
+.auditLineType_04_includeBottomText
+{
+  margin-left: 20px;
+  font-style: italic;
+  font-size: 12px;
+}
+.auditLineType_05_mailBlockText
+{
+  font-size: 12px;
+}
+.auditLineType_06_completionText
+{
+  font-size: 12px;
+}
+.auditLineType_07_hText
+{
+  font-size: 12px;
+   font-family: "Courier New", Courier, mono;
+   margin-left: 3em;
+    white-space: pre;
+}
+.auditLineType_08_errorText
+{
+  font-size: 12px;
+  color: #FF0000;  /* badger red */
+  font-weight: bold;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.auditLineType_09_blankLine
+{
+}
+.auditLineType_10_okRequirementTitle
+{
+  color: /*#009900;*/#006666; 
+  font-weight: bold;
+  font-size: 15px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.auditLineType_11_noRequirementTitle
+{
+  	color: #990000;  /* dk red */
+	font-weight: bold;
+	font-size: 15px;
+/* font-style: italic;*/
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.auditLineType_12_okRequirementEarnedLine
+{
+  font-size: 12px;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ margin-left: 3em;
+ white-space: pre;
+}
+.auditLineType_13_noRequirementEarnedLine
+{
+  font-size: 12px;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ margin-left: 3em;
+ white-space: pre;
+}
+.auditLineType_14_okRequirementNeedsLine
+{
+  font-size: 12px;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ margin-left: 3em;
+ white-space: pre;
+  /*font-weight: bold:*/
+  /*color: #000000;*/
+}
+.auditLineType_15_noRequirementNeedsLine
+{
+  font-size: 12px;
+ font-style: italic;
+ font-weight: bold;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ margin-left: 3em;
+ white-space: pre;
+}
+.auditLineType_16_okSubrequirementTLine
+{
+	margin-left: 3em;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.auditLineType_17_noSubrequirementTLine
+{
+	margin-left: 3em;
+	font-style: italic;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.auditLineType_18_okSubrequirementVLine
+{
+	font-style: italic;
+	font-size: 12px;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ margin-left: 3em;
+}
+.auditLineType_19_noSubrequirementVLine
+{
+	font-style: italic;
+	font-size: 12px;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ margin-left: 3em;
+}
+.auditLineType_20_okSubrequirementEarnedLine
+{
+	margin-left: 3em;
+  font-size: 12px;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ white-space: pre;
+}
+.auditLineType_21_noSubrequirementEarnedLine
+{
+	margin-left: 3em;
+	color: #000099;
+  	font-size: 12px;
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+ 	white-space: pre;
+}
+.auditLineType_22_okSubrequirementCourses
+{
+	color: #000099;  /* dk blue changed from grey blue*/
+	font-size: 12px;
+	font-weight:  bold;
+	margin-left: 3em;
+ 	/* font-family: "Courier New", Courier, mono; */
+ 	font-family: "Lucida Console", Lucida, mono;
+ 	white-space: pre;
+}
+.auditLineType_23_noSubrequirementCourses
+{
+	color: #000099;  /* dk blue changed from grey blue*/
+	font-size: 12px;
+	font-weight:  bold;
+	margin-left: 3em;
+ 	/* font-family: "Courier New", Courier, mono; */
+ 	font-family: "Lucida Console", Lucida, mono;
+ 	white-space: pre;
+}
+.auditLineType_24_okSubrequirementNeedsSummaryLine
+{
+margin-left: 3em;
+  font-size: 12px;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ white-space: pre;
+}
+.auditLineType_25_noSubrequirementNeedsSummaryLine
+{
+margin-left: 3em;
+  font-size: 12px;
+ font-style: italic;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ white-space: pre;
+}
+.auditLineType_26_okSubrequirementRejectCourses
+{
+  font-size: 12px;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ margin-left: 3em;
+ white-space: pre;
+}
+.auditLineType_27_noSubrequirementRejectCourses
+{
+  font-size: 12px;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ margin-left: 3em;
+ white-space: pre;
+}
+.auditLineType_28_okSubrequirementAcceptCourses
+{
+  font-size: 12px;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ margin-left: 3em;
+ white-space: pre;
+}
+.auditLineType_29_noSubrequirementAcceptCourses
+{
+  font-size: 12px;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ margin-left: 3em;
+ white-space: pre;
+}
+
+/* -------------------------------------------------------*/
+/*           END: Audit line type definitions             */
+/* -------------------------------------------------------*/
+
+/* -------------------------------------------------------*/
+/*                general definitions                     */
+/* -------------------------------------------------------*/
+/* removes borders around linked images
+a img {border: none}
+
+/* -------------------------------------------------------*/
+/*           audit header definitions                     */
+/* -------------------------------------------------------*/
+.auditHeaderLabel
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;  /* black */
+}
+
+.auditHeaderText
+{
+	font-size: 12px;
+	color: #000000;  /* black */
+}
+.auditHeaderLogo
+{
+	padding: 3px;
+}
+
+.headerTable
+{
+	width: 770px;
+}
+
+.headerMiddle, .headerTop, .headerBottom {
+	width: 770px;
+}
+.headerTop, .headerBottom {
+	height: 5px;
+}
+.headerMiddle {
+	background-image: url(./headerMiddle.jpg);
+}
+
+.headerTop {
+	background-image: url(./headerTop.jpg);
+}
+
+.headerBottom {
+	background-image: url(./headerBottom.jpg);
+}
+
+/* -------------------------------------------------------*/
+/*           course cart page definitions                 */
+/* -------------------------------------------------------*/
+.cartBody
+{
+	margin-left: 0em;
+	margin-right: 0em;
+}
+.cartError
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000;  /*  badger red  */
+}
+
+/* -------------------------------------------------------*/
+/*           printer friendly page definitions            */
+/* -------------------------------------------------------*/
+.printFriendlyMainTable
+{
+	width: 600px;
+}
+
+/* -------------------------------------------------------*/
+/*           error page definitions                       */
+/* -------------------------------------------------------*/
+.dump
+{
+	font-size: 10px;
+	color: #000000;  /* black */
+	background-color: #CCCC99;  /*  med tan  */
+}
+
+/* -------------------------------------------------------*/
+/*           sub header table definitions                 */
+/* -------------------------------------------------------*/
+.titleMiddle
+{
+	font-size: 13px;
+	font-weight: bold;
+	background-image: url(./titleMiddle.gif);
+	height: 25px;
+	color: #000000;  /* black */
+}
+
+.titleLeftCorner
+{
+	font-size: 120%;
+	font-weight: bold;
+	background-image: url(./titleLeftCorner.gif);
+	width: 4px;
+	height: 25px;
+}
+
+.titleRightCorner
+{
+	font-size: 120%;
+	font-weight: bold;
+	background-image: url(./titleRightCorner.gif);
+	width: 4px;
+	height: 25px;
+}
+
+.titleFooter
+{
+	height: 3px;
+}
+
+.titleRightSide
+{
+/*	background-image: url(./titleRightSide.gif);*/
+	width: 4px;
+}
+
+.titleLeftSide
+{
+	width: 4px;
+}
+
+.titleSpacer
+{
+	height: 6px;
+
+}
+
+/* -------------------------------------------------------*/
+/*                hyper links                             */
+/* -------------------------------------------------------*/
+
+a{}
+
+a:link {
+	color: #000099; /* dk blue */
+	font-size: 16px;
+}
+
+a:visited {
+	font-size: 16px;
+}
+
+a:hover {
+	color: #0060ff;  /* med blue */
+	font-size: 16px;
+}
+
+a:active {
+	color: #ff0066;  /* dk fushia */
+	font-size: 16px;
+}
+
+/* -------------------------------------------------------*/
+/*                common definitions                      */
+/* -------------------------------------------------------*/
+body
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;  /* black */
+	background-color: #FFFFFF;  /* white */
+	/* background-color: #E3E3C7;    lt tan */
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	margin-top: 0em;
+	font-size: 12px;
+}
+
+highContrastBody
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;  /* white */
+	background-color:#000000;  /* black */
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	margin-top: 0em;
+	font-size: 12px;
+}
+
+#wrapper {
+	width: 770px;
+	position: relative;
+	left: 50%;
+	margin-left: -385px;
+}
+
+.plainText
+{
+	font-size: 12px;
+}
+
+.columnHeader
+{
+ 	font-size: 11px;
+	color: #000000;  /* black */
+	text-align: center;
+	background-color: #CCCC99;  /*  med tan */
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.emphasizedText
+{
+	font-weight: bold;
+}
+
+
+.importantData
+{
+	font-size: 12px;
+	color: #000000;  /* black */
+	background-color: #CCCC99;  /*  med tan */
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.importantDataCenter
+{
+	font-size: 12px;
+	color: #000000;  /* black */
+	text-align: center;
+	background-color: #CCCC99;  /* med tan */
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.importantDataLeftAlign
+{
+	font-size: 11px;
+	color: #000000;  /* black */
+	text-align: left;
+	font-weight: bold;
+	background-color: #CCCC99;  /* med tan */
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.importantDataRightAlign
+{
+	font-size: 11px;
+	color: #000000;  /* black */
+	text-align: right;
+	background-color: #CCCC99;  /*  med tan  */
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.rollOverIn
+{
+	background-color: #F1F1E3; /* not true white */
+	font-size: 12px;
+}
+
+.altColorRow
+{
+	background-color: #EFEFC9; /* lt tan */
+	font-size: 12px;
+}
+
+.rollOverOut
+{
+	background-color: #E3E3C7; /* another lt tan */
+	font-size: 12px;
+}
+.mainTable
+{
+	width: 770px;
+	border: 1px;
+	border-width: 1%;
+}
+
+table
+{
+	border: 0px none;
+	border-width: thin;
+}
+
+.footer
+{
+	font-size: 11px;
+}
+
+.warning
+{
+  font-size: 15px;
+  color: #FF0000;  /*  badger red  */
+}
+
+
+/* IA-288 Jumbled or overlapping text in the Printer Friendly audit. */
+.requirementSpacer {
+	color: transparent;
+	border: none;
+	padding: 0;
+	margin: 0;
+	width: 0;
+}
